@@ -1,6 +1,7 @@
 #! /bin/bash
 
-# Extrait les contacts d'une archive pst et les convertit en vcf.
+
+# Extrait les contacts d'un fichier pst renseigné en argument et les convertit en vcf.
 
 
 mkdir cont_$(echo $1) && cd cont_$(echo $1)
